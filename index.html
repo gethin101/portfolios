@@ -69,9 +69,9 @@
     }
 
     .side-rail {
-      position: fixed;
+      position: absolute;
       top: 0;
-      bottom: 0;
+      height: 100vh;
       width: 225px;
       z-index: 3;
       overflow: hidden;
@@ -423,23 +423,23 @@
 
   <aside class="side-rail left" aria-hidden="true">
     <div class="rail-collage">
-      <img class="rail-photo" src="assets/rails/rail-1.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-2.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-3.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-4.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-5.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-6.jpg" alt="" />
+      <img class="rail-photo" src="assets/rail/1.jpeg" alt="" />
+      <img class="rail-photo" src="assets/rail/2.png" alt="" />
+      <img class="rail-photo" src="assets/rail/3.png" alt="" />
+      <img class="rail-photo" src="assets/rail/4.png" alt="" />
+      <img class="rail-photo" src="assets/rail/5.png" alt="" />
+      <img class="rail-photo" src="assets/rail/6.png" alt="" />
     </div>
   </aside>
 
   <aside class="side-rail right" aria-hidden="true">
     <div class="rail-collage">
-      <img class="rail-photo" src="assets/rails/rail-7.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-8.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-9.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-10.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-11.jpg" alt="" />
-      <img class="rail-photo" src="assets/rails/rail-12.jpg" alt="" />
+      <img class="rail-photo" src="assets/rail/7.png" alt="" />
+      <img class="rail-photo" src="assets/rail/8.jpg" alt="" />
+      <img class="rail-photo" src="assets/rail/9.png" alt="" />
+      <img class="rail-photo" src="assets/rail/10.jpeg" alt="" />
+      <img class="rail-photo" src="assets/rail/11.png" alt="" />
+      <img class="rail-photo" src="assets/rail/12.png" alt="" />
     </div>
   </aside>
 
@@ -459,7 +459,6 @@
   </main>
 
   <section class="belt-section" id="projects" aria-label="Project carousel">
-    <div class="belt-heading">Featured Projects · Hover to pause conveyor</div>
     <div class="belt-shell">
       <div class="conveyor">
         <div class="conveyor-track" id="projectTrack">
@@ -528,7 +527,6 @@
         </div>
       </div>
     </div>
-    <p class="hint">Place your project images in <code>assets/project-photos/</code> with the filenames used in each card.</p>
   </section>
 
   <script>
